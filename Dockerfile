@@ -8,3 +8,4 @@ RUN yarn build
 # Stage 2 - the production environment
 FROM nginx
 COPY --from=build-deps ./build /usr/share/nginx/html
+EXPOSE 80
