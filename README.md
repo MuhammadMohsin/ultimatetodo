@@ -10,3 +10,6 @@
     - yarn build
     - docker build . -t mytodo
     - docker run -p 3000:80 -d mytodo
+    - Open in the browser:
+
+    http://localhost:3000
