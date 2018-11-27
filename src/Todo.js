@@ -1,3 +1,7 @@
+/**
+ * Keeping all components in a single file to make it simplest
+ */
+
 import React, { Component } from "react";
 
 class TodoList extends Component {
@@ -78,7 +82,7 @@ class TodoForm extends Component {
 
 class TodoHeader extends Component {
   render() {
-    return <h1>Todo list</h1>;
+    return <h1>Todo List</h1>;
   }
 }
 
